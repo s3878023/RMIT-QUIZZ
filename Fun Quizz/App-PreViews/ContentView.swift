@@ -16,17 +16,17 @@ struct ContentView: View {
             ZStack {
                 VStack(spacing: 40) {
                     VStack(spacing: 20) {
-                        
+
                         Image("trophy")
                             .resizable()
                             .frame(width: 250, height: 250)
                             .padding(.bottom, 60)
-                        
+
                         Text("Welcome To Fun Quizz")
                             .font(.title)
                             .fontWeight(.heavy)
                             .foregroundColor(Color("paleaqua"))
-                        
+
                         Text("Quiz Your Way to the Top!")
                             .foregroundColor(Color("paleaqua"))
                             .fontWeight(.heavy)
@@ -36,19 +36,16 @@ struct ContentView: View {
                             .environmentObject(funQuizzManager)
                     }label: {
                         MainButton(text: "Let's go!")
-                        
+
                     }
                     HStack{
-                        
                         Button{
-                            
                         }label:{
                             Image("info")
                                 .resizable()
                                 .frame(width: 50, height: 50)
                                 .padding()
                         }
-                        
                         Button{
                             showInfoView = true
                         }label:{
@@ -57,18 +54,14 @@ struct ContentView: View {
                                 .frame(width: 50, height: 50)
                                 .padding()
                         }
-                        
                         Button{
-                            
                         }label:{
                             Image("gear")
                                 .resizable()
                                 .frame(width: 50, height: 50)
                                 .padding()
                         }
-                        
                     }
-                    
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .edgesIgnoringSafeArea(.all)
@@ -81,6 +74,7 @@ struct ContentView: View {
                 infoView()
             }
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
@@ -89,3 +83,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

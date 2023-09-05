@@ -65,7 +65,7 @@ struct infoView: View {
                             .resizable()
                             .frame(width: 150, height: 280)
                         
-                        Text("From image of the main view above, the user can press the let's go button in order to proceed to the game and start to play. Or they can press the info button, rules and setting in order to view the information, check the rules or change the settings \n\nAs the user proceed to the game view, they will need to finish the game by answer correct the most of the question they can to score the highest in the leader board. There are two effects to show if the user answer correct or wrong.\nHowever the player must be reminded that if they hit the answer, it will immediatly show if they are correct or wrong so be careful with your answer")
+                        Text("From image of the main view above, the user can press the let's go button in order to proceed to the game and start to play. Or they can press the info button, rules and setting in order to view the information, check the rules or change the settings \n\nHowever the player must be reminded that if they hit the answer, it will immediatly show if they are correct or wrong so be careful with your answer")
                         HStack{
                             Image("rightQuizz")
                                 .resizable()
@@ -74,6 +74,7 @@ struct infoView: View {
                                 .resizable()
                                 .frame(width: 150, height: 280)
                         }
+                        Text("\nAfter the player finish the game, the game will reach the final stage of the game that leads the player to see their score and then save the progress to see where they are on the Leader Board.")
                     }
                     
                         
