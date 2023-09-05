@@ -5,46 +5,6 @@
 //  Created by Đại Đức on 03/09/2023.
 //
 
-//import SwiftUI
-//
-//struct infoView: View {
-//    @Environment(\.dismiss) var dismiss
-//
-//    var body: some View {
-//        ZStack{
-//            Rectangle()
-//                .fill(Color("chineseyellow"))
-//                .ignoresSafeArea()
-//
-//            Rectangle()
-//                .fill(.white)
-//                .cornerRadius(30)
-//                .frame(width: .infinity, height: .infinity)
-//                .padding(25)
-//
-//            HStack{
-//                Text("This is a small text")
-//                Text("This is a small text")
-//                Text("This is a small text")
-//                Text("This is a small text")
-//                Text("This is a small text")
-//                Text("This is a small text")
-//                Text("This is a small text")
-//
-//            }
-//        }
-//
-//
-//
-//    }
-//
-//    struct infoView_Previews: PreviewProvider {
-//        static var previews: some View {
-//            infoView()
-//        }
-//    }
-//
-//}
 import SwiftUI
 
 struct infoView: View {
