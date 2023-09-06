@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct settingView: View {
     @State private var selectedGameMode: GameMode = .easy

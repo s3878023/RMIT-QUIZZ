@@ -35,7 +35,7 @@ class FunQuizzManager: ObservableObject {
     
     // getting the information about the Quizz question from the database online
     func fetchQuizz() async {
-        guard let url = URL(string: "https://opentdb.com/api.php?amount=10") else { fatalError("The URL is missing") }
+        guard let url = URL(string: "https://opentdb.com/api.php?amount=15&difficulty=easy") else { fatalError("The URL is missing") }
         
         let urlRequest = URLRequest(url: url)
         
