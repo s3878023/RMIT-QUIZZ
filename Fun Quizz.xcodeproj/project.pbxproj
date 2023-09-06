@@ -20,7 +20,9 @@
 		E7A87B932AA24387002F7384 /* ProgressTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A87B922AA24387002F7384 /* ProgressTracker.swift */; };
 		E7A87B952AA24458002F7384 /* FunQuizzManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A87B942AA24458002F7384 /* FunQuizzManager.swift */; };
 		E7A87B992AA24772002F7384 /* FunQuizzView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A87B982AA24772002F7384 /* FunQuizzView.swift */; };
+		E7BA5F3A2AA7AC8700D8D03E /* informationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BA5F392AA7AC8700D8D03E /* informationView.swift */; };
 		E7C27B992AA4711A00D95018 /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C27B982AA4711A00D95018 /* infoView.swift */; };
+		E7C41EF72AA82D6C00938310 /* settingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C41EF62AA82D6C00938310 /* settingView.swift */; };
 		E7CAE3872AA32281005270A5 /* soundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CAE3862AA32281005270A5 /* soundEffects.swift */; };
 		E7CAE38F2AA329A9005270A5 /* endgame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7CAE3892AA329A9005270A5 /* endgame.mp3 */; };
 		E7CAE3902AA329A9005270A5 /* right.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7CAE38A2AA329A9005270A5 /* right.mp3 */; };
@@ -48,7 +50,9 @@
 		E7A87B922AA24387002F7384 /* ProgressTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTracker.swift; sourceTree = "<group>"; };
 		E7A87B942AA24458002F7384 /* FunQuizzManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunQuizzManager.swift; sourceTree = "<group>"; };
 		E7A87B982AA24772002F7384 /* FunQuizzView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunQuizzView.swift; sourceTree = "<group>"; };
+		E7BA5F392AA7AC8700D8D03E /* informationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationView.swift; sourceTree = "<group>"; };
 		E7C27B982AA4711A00D95018 /* infoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoView.swift; sourceTree = "<group>"; };
+		E7C41EF62AA82D6C00938310 /* settingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingView.swift; sourceTree = "<group>"; };
 		E7CAE3862AA32281005270A5 /* soundEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soundEffects.swift; sourceTree = "<group>"; };
 		E7CAE3892AA329A9005270A5 /* endgame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = endgame.mp3; sourceTree = "<group>"; };
 		E7CAE38A2AA329A9005270A5 /* right.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = right.mp3; sourceTree = "<group>"; };
@@ -136,8 +140,10 @@
 			children = (
 				E7A87B982AA24772002F7384 /* FunQuizzView.swift */,
 				E7A87B762AA23DA3002F7384 /* ContentView.swift */,
+				E7C41EF62AA82D6C00938310 /* settingView.swift */,
 				E7A87B8A2AA241E0002F7384 /* quizzView.swift */,
 				E7C27B982AA4711A00D95018 /* infoView.swift */,
+				E7BA5F392AA7AC8700D8D03E /* informationView.swift */,
 			);
 			path = "App-PreViews";
 			sourceTree = "<group>";
@@ -247,6 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7C27B992AA4711A00D95018 /* infoView.swift in Sources */,
+				E7C41EF72AA82D6C00938310 /* settingView.swift in Sources */,
+				E7BA5F3A2AA7AC8700D8D03E /* informationView.swift in Sources */,
 				E7A87B892AA23E88002F7384 /* MainButton.swift in Sources */,
 				E7A87B932AA24387002F7384 /* ProgressTracker.swift in Sources */,
 				E7A87B992AA24772002F7384 /* FunQuizzView.swift in Sources */,

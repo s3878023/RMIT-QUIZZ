@@ -67,7 +67,7 @@ struct FunQuizzView: View {
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
                         .padding(.top, -15)
-                        .foregroundColor(.black)
+                        .foregroundColor(Color("chineseyellow"))
 
                     Text("You scored \(funQuizzManager.score) out of \(funQuizzManager.length)")
                         .bold()
@@ -96,7 +96,7 @@ struct FunQuizzView: View {
                 .onAppear {
                     loadUserScores()
                     DispatchQueue.main.asyncAfter(deadline: .now()) {
-                        // playSound(sound: "victory", type: "mp3")
+                         playSound(sound: "victory", type: "mp3")
                     }
                 }
             } else {
